@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec npx babel-node -r D:\\projects\\react-auth-starter\\back-end\\node_modules\\dotenv\\config.js ./src/server.js",
+    "dev": "nodemon --exec npx babel-node -r D:\\projects\\react-auth-app\\back-end\\node_modules\\dotenv\\config.js ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +19,7 @@
     "bcrypt": "^5.0.1",
     "dotenv": "^16.0.0",
     "express": "4.17.1",
+    "googleapis": "^104.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "3.6.5",
     "uuid": "^8.3.2"

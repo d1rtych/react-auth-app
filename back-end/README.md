@@ -1,0 +1,1 @@
+default pass with lower case and specials
