@@ -13,7 +13,7 @@ export const ForgotPasswordPage = () => {
       await axios.put(`/api/forgot-password/${emailValue}`);
       setSuccess(true);
       setTimeout(() => {
-        history.push('/login');
+        history.push(`/reset-password?email=${decodeURIComponent(emailValue)}`);
       }, 3000);
     } catch (e) {
       setErrorMessage(e.message);
